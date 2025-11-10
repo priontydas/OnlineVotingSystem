@@ -15,7 +15,7 @@ public class Main {
         // JLabel  title দেখানো
         JLabel label = new JLabel("ONLINE VOTING SYSTEM", SwingConstants.CENTER);
         label.setFont(new Font("Arial", Font.BOLD, 30));
-        label.setBounds(0, 50, 800, 50); // x, y, width, height
+        label.setBounds(0, 50, 800, 50); 
         frame.add(label);
 
         frame.setVisible(true);              

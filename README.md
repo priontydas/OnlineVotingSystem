@@ -12,7 +12,7 @@ public class Main {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setLocationRelativeTo(null);   
 
-        // JLabel দিয়ে title দেখানো
+        // JLabel  title দেখানো
         JLabel label = new JLabel("ONLINE VOTING SYSTEM", SwingConstants.CENTER);
         label.setFont(new Font("Arial", Font.BOLD, 30));
         label.setBounds(0, 50, 800, 50); // x, y, width, height
